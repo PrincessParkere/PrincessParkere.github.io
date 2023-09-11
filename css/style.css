@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: plum;
+}
+
+nav {
+    background-color: lavender;
+    text-align: right;
+    display: flex;
+    padding-right: 10px; 
+    justify-content: right;
+    border-bottom: solid plum;
+}
+
+nav > p {
+    justify-content: right;
+}
+nav a:hover {
+    color: white;
+    text-decoration: none;
+}
+nav a:visited {
+    color: plum;
+}
+
+footer {
+    background-color: lavender;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+footer > p {
+    justify-content: center;
+}
+
+footer a:hover {
+    color: white;
+    font-weight: 100px; 
+}
+
+footer a:visited {
+    color: plum;
+    font-weight: 100px;
+}
+
+.about {
+    background-color: lavender;
+    padding: 30px;
+    font-family: "Neuton";
+    color: cornflowerblue;
+    font-size: 20px;
+    border: solid 5px plum;
+}
+
+ul, dl, dd {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.skills {
+    background-color: lavender;
+    padding: 30px;
+    font-family: "Philosopher";
+    color: cornflowerblue;
+    font-size: 20px;
+    border: solid 5px plum;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rebeccapurple;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.image1 {
+position: absolute;
+width: 200px;
+height: auto;
+border-radius: 100px;
+top: 5px;
+left: 30px;
+border-radius: 10px;
+}
+.image2 {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    top: 150px;
+    left: 50px;
+}
+
+.image3 {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    border-radius: 100px;
+    top: 250px;
+    left: 30px;
+    border-radius: 10px;
+}
+
+.lang {
+    width: 200px;
+    height: auto;
+    border: pink solid;
+    box-shadow: 5px 5px;
+}
+
+.butterfly {
+    width: 200px;
+    height: auto;
+    border: pink solid;
+    box-shadow: 5px 5px;
+}
+
+.flower{
+    width: 150px;
+    height: auto;
+    border: cornsilk solid;
+    box-shadow: 5px 5px;
+}
+
+.three-col {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.one-col {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border: plum dotted;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.headshot {
+    border: lavender
+     solid 10px;
+    border-radius: 10px;
+}
+
+.experience {
+    padding-top: 10px;
+}
